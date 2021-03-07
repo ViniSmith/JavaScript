@@ -14,11 +14,25 @@
     </header>
     
     <section>
-        <div>
-            Testando...
+        <div class="transparente">
+            <p>Ano de Nascimento:
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="choncc" checked>
+                <label for"masc">Choncc</label>
+                <input type="radio" name="radsex" id="aoshin">
+                <label for="aoshin">Ao Shin</label>
+                <input type="radio" name="radsex" id="umbra">
+                <label for="umbra">Umbra</label>
+            </p>
+            <p>
+                <input id="botao" type="button" value="Verificar" onclick="verificar()">
+            </p>
 
         </div>
-        <div id="res">
+        <div id="res" class="transparente">
+            <p>Preencha os dados acima invocador!</p>
             
 
         </div>
