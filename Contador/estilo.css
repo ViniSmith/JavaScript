@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    color: white;
+    color: #1b93b1cc ;
     text-align: center;
     background-color: #0000004f;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -19,13 +19,13 @@ section{
     padding: 15px;
     width: 500px;
     margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.671);
+    box-shadow: 5px 5px 5px 5px rgba(0, 217, 255, 0.671);
     text-align: center;
-    color:white;
+    color: #1b93b181 ;
 }
 
 section:hover{
-    background: #012d3880
+    background: #012d3880;
 }
 
 
@@ -35,5 +35,38 @@ footer {
     font-style: italic;
 
 }
-
- 
+#botao {
+    padding:5px;
+    font-size: 15px;
+    border-radius: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ff000000;
+    color:#1b93b1cc;
+}
+#botao:hover{
+    filter:brightness(1000%);
+}
+#footer {
+    margin-top: 20%;
+    color: #1b93b1cc;
+}
+.inputs {
+    border-radius: 50px;
+    color:aqua;
+    background-color:#012d3880;
+}
+#res:hover{
+    filter:brightness(200%);
+}
+#txtini:hover{
+    filter:brightness(200%);
+}
+#txtfim:hover{
+    filter:brightness(200%);
+}
+#txtpas:hover{
+    filter:brightness(200%);
+}
+.transparente:hover {
+    filter:brightness(300%);
+}

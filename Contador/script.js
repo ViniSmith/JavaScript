@@ -12,7 +12,7 @@ function contar() {
         window.alert('[ERRO]')
 
     }else {
-        res.innerText = 'Contanto:\u{1F633}'
+        res.innerText = 'Contando:\u{1F633}'
 
             if (pass <= 0) {
                 window.alert('Sequência inválida! Considerando 1 ao invés')
