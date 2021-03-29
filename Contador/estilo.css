@@ -1,5 +1,5 @@
 body {
-    background: rgb(88, 88, 252);
+    background:url(fundo1.jpg);
     font: normal 15pt Arial;
     
 }
@@ -8,10 +8,12 @@ header {
     color: white;
     text-align: center;
     background-color: #0000004f;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
 section{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background: #0000004f;
     border-radius: 100px;
     padding: 15px;
@@ -19,20 +21,19 @@ section{
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.671);
     text-align: center;
+    color:white;
 }
 
 section:hover{
-    filter:brightness(200%);
+    background: #012d3880
 }
 
 
 footer {
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-style: italic;
 
 }
 
-.transparente:hover{
-    filter:brightness(200%)
-}
+ 
