@@ -21,9 +21,10 @@ function contar() {
 
             if (ini<fim) { //CONTAGEM CRESCENTE
                 for(let c = ini ; c <= fim ; c += pass) {
-                    res.innerHTML += `${c} \u{1F921} `
+                    res.innerHTML += `${c} \u{1F921}`
                 }
-                res.innerHTML += `${c} \u{1F60E}`
+                res.innerHTML += `\u{1F60E}`
+                
             } else { // CONTAGEM DECRESCENTE
                 for(let c = ini; c>=fim; c-= pass) {
                     res.innerHTML += `${c} \u{1F921}`
