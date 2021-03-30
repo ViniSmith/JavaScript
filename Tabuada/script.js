@@ -3,6 +3,10 @@ function tabuada () {
     let tab = document.getElementById('lista')
     let tab1 = document.getElementById('lista1')
     let tab2 = document.getElementById('lista2')
+    var menu = document.getElementById('menu')
+
+    
+
     if (num.value.length == 0){
         window.alert('Por favor, digite um número!')
 
@@ -33,7 +37,7 @@ function tabuada () {
         while (e <=30) {
             let item2 = document.createElement('option')
             item2.text = `${n} x ${e} = ${n*e}`
-            item2.value = `tab1${e}`
+            item2.value = `tab2${e}`
             tab2.appendChild(item2)
             e++
         }

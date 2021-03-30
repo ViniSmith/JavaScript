@@ -1,5 +1,6 @@
 body {
-    background: rgb(88, 88, 252);
+    background:url(./wallpaper1.jpg)no-repeat;
+    background-size: 100%;
     font: normal 15pt Arial;
     
 }
@@ -11,19 +12,32 @@ header {
 }
 
 section{
-    background: white;
+    background: rgba(147, 4, 204, 0.315);
     border-radius: 10px;
     padding: 15px;
     width: 510px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.671);
-
+    text-align: center;
 
 }
+
 
 footer {
     color: white;
     text-align: center;
     font-style: italic;
 
+}
+
+
+.transparente {
+    background-color: rgba(25, 0, 255, 0.445);
+    margin:0 auto;
+}
+.selects {
+    width: 165px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:rgba(137, 43, 226, 0)
 }
