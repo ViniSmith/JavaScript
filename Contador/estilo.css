@@ -1,16 +1,16 @@
 body {
     background:url(fundo1.jpg);
     font: normal 15pt Arial;
-    
 }
+
 
 header {
     color: #1b93b1cc ;
     text-align: center;
     background-color: #0000004f;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
 }
+
 
 section{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -24,6 +24,7 @@ section{
     color: #1b93b181 ;
 }
 
+
 section:hover{
     background: #012d3880;
 }
@@ -36,7 +37,7 @@ footer {
     color: #1b93b1cc;
 }
 
-}
+
 #botao {
     padding:5px;
     font-size: 15px;
@@ -45,28 +46,40 @@ footer {
     background-color: #ff000000;
     color:#1b93b1cc;
 }
+
+
 #botao:hover{
     filter:brightness(1000%);
 }
 
-}
+
 .inputs {
     border-radius: 50px;
     color:aqua;
     background-color:#012d3880;
 }
+
+
 #res:hover{
     filter:brightness(200%);
 }
+
+
 #txtini:hover{
     filter:brightness(200%);
 }
+
+
 #txtfim:hover{
     filter:brightness(200%);
 }
+
+
 #txtpas:hover{
     filter:brightness(200%);
 }
+
+
 .transparente:hover {
     filter:brightness(300%);
 }
