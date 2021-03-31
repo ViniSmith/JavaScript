@@ -30,9 +30,11 @@ section:hover{
 
 
 footer {
-    color: rgb(255, 255, 255);
     text-align: center;
     font-style: italic;
+    margin-top: 22%;
+    color: #1b93b1cc;
+}
 
 }
 #botao {
@@ -46,9 +48,7 @@ footer {
 #botao:hover{
     filter:brightness(1000%);
 }
-#footer {
-    margin-top: 20%;
-    color: #1b93b1cc;
+
 }
 .inputs {
     border-radius: 50px;

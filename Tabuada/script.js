@@ -3,9 +3,6 @@ function tabuada () {
     let tab = document.getElementById('lista')
     let tab1 = document.getElementById('lista1')
     let tab2 = document.getElementById('lista2')
-    var menu = document.getElementById('menu')
-
-    
 
     if (num.value.length == 0){
         window.alert('Por favor, digite um número!')

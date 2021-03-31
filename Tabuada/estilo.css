@@ -2,24 +2,24 @@ body {
     background:url(./wallpaper1.jpg)no-repeat;
     background-size: 100%;
     font: normal 15pt Arial;
-    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(255, 255, 255);
 }
+
 
 header {
-    color: white;
     text-align: center;
-
 }
 
+
 section{
-    background: rgba(147, 4, 204, 0.315);
+    background:linear-gradient(to right,rgba(0, 102, 255, 0.253),rgba(128, 0, 128, 0.247));
     border-radius: 10px;
     padding: 15px;
     width: 510px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.671);
     text-align: center;
-
 }
 
 
@@ -27,17 +27,34 @@ footer {
     color: white;
     text-align: center;
     font-style: italic;
-
+    margin-top: 22%;
 }
 
 
 .transparente {
-    background-color: rgba(25, 0, 255, 0.445);
     margin:0 auto;
 }
+
+
 .selects {
     width: 165px;
     text-align: center;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color:rgba(137, 43, 226, 0)
+    background-color:rgba(137, 43, 226, 0);
+    border-radius: 15px;
+    overflow-y: hidden;
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+
+#botao {
+    color:rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+
+#txtn {
+    color:rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.329);
 }
