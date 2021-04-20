@@ -12,6 +12,7 @@ body{
     width:30%;
     display:inline-block;
     border:2px solid #43acca;
+    font-weight: 300;
     
 }
 
@@ -64,7 +65,7 @@ main{
     text-align:center;
     font-size:1.1em;
     text-indent: 2%;
-    margin:2%;
+    margin:7%;
     color: white;
     
 }
@@ -75,10 +76,10 @@ main{
 }
 
 main div {
-    width:95%;
+    width:40%;
     text-align:center;
     background-color:rgba(255, 14, 14, 0);
-    height:25em;
+    height:15em;
     display:inline-block;
     border:2px solid #43acca;
     margin-top: 2%;
@@ -86,10 +87,3 @@ main div {
 
 }
 
-/*div {
-    display:inline-block;
-    width:20%;
-    height:20em;
-    background-color:white;
-    border:2px solid blue;
-}*/
