@@ -97,3 +97,9 @@ a {
 	text-decoration: none;
     color:rgb(151, 225, 255);
 }
+
+footer {
+    text-align: center;
+    color:white;
+    margin-top: 100px;
+}
