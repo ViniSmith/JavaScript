@@ -183,6 +183,9 @@ body {
     font-weight: bold;
 }
 
+.darkMode {
+    background: rgb(94, 92, 92);
+}
 
 @media (max-width: 700px) {
     body {
