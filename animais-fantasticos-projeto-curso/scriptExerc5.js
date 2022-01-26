@@ -41,3 +41,15 @@ function clickT(event) {
     }
 }
 window.addEventListener('keydown', clickT);
+
+function calcular (x, y) {
+    if (x==0) {
+        console.log(x);
+        console.log(y);
+        return y;
+    }
+    calcular(x - 1, x + y);
+    console.log(x);
+    console.log(y);
+}
+
