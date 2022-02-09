@@ -13,3 +13,18 @@ Pessoa.prototype.nadar = function() {
 
 const vini = new Pessoa('Vinicius', 19);
 console.log(Pessoa.prototype);
+
+const lista = document.querySelectorAll('li');
+
+//Transforma em uma array
+
+const listaArray1 = Array.prototype.slice.call(lista);
+const listaArray2 = Array.from(lista);
+
+const Carro = {
+    marca: 'Ford',
+    preco: 2000,
+    andar() {
+        return true;
+    }
+}
